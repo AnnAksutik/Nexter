@@ -4,7 +4,7 @@
   "description": "Nexter webpage",
   "main": "index.js",
   "scripts": {
-    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "watch:sass": "sass sass/main.scss css/style.css -w",
     "devserver": "live-server",
     "start": "npm-run-all --parallel devserver watch:sass",
     "compile:sass": "sass sass/main.scss css/style.comp.css",
@@ -12,7 +12,7 @@
     "compress:css": "sass css/style.prefix.css css/style.css --style compressed",
     "build:css": "npm-run-all compile:sass prefix:css compress:css"
   },
-  "author": "Jonas",
+  "author": "Anna Aksutik",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^10.4.14",
