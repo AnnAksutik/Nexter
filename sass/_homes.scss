@@ -10,7 +10,7 @@
   background-color: $color-grey-light-1;
 
   display: grid;
-  grid-template-columns: repeat(2, 50%);
+  grid-template-columns: repeat(2, 1fr);
   row-gap: 3.5rem;
 
   &__img {
